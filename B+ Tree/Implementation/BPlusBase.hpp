@@ -1,0 +1,2 @@
+BPlusBase::~BPlusBase() {
+}

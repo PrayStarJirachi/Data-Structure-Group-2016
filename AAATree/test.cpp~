@@ -1,0 +1,6 @@
+#include <bits/stdc++.h>
+#include "TNode.hpp"
+
+int main() {
+	return 0;
+}

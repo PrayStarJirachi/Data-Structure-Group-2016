@@ -3,18 +3,13 @@
 #ifndef SJTU_AUXNODE_CPP
 #define SJTU_AUXNODE_CPP
 
-template<class D, class T, class DA, class TA, class M>
-void AuxNode<D, T, DA, TA, M>::pushdown() {
+template<class T, class A, class M>
+void AuxNode<T, A, M>::pushdown() {
 	// TODO
 }
 
-template<class D, class T, class DA, class TA, class M>
-void AuxNode<D, T, DA, TA, M>::update() {
-	// TODO
-}
-
-template<class D, class T, class DA, class TA, class M>
-AuxNode<D, T, DA, TA, M>::~AuxNode(){
+template<class T, class A, class M>
+void AuxNode<T, A, M>::update() {
 	// TODO
 }
 

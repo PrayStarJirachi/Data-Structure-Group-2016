@@ -5,25 +5,19 @@
 
 namespace sjtu{
 
-template<class D, class T, class DA, class TA, class M>
-class AuxTree;
-
-template<class D, class T, class DA, class TA, class M>
-class AuxNode : TNode<D, T, DA, TA, M>{
-friend class AuxTree<D, T, DA, TA, M>;
+template<class T, class A, class M>
+class AuxNode : TNode<T, A, M>{
 private:
 	T tagTree;
-	
-	void pushdown();
-	void update();
 
 public:
-	virtual ~AuxNode();
+	void pushdown();
+	void update();
 
 };
 
 #include "source/AuxNode.cpp"
 
-};
+}
 
 #endif

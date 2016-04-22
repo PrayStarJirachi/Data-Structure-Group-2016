@@ -1,6 +1,12 @@
-#include <bits/stdc++.h>
-#include "AuxNode.hpp"
+#include "Forest.hpp"
+
+class Add{
+};
+
+class Mult{
+};
+
+sjtu::Forest<int, Add, Mult> forest;
 
 int main() {
-	return 0;
 }

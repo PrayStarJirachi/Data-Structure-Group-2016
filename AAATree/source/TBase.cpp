@@ -3,11 +3,11 @@
 #ifndef SJTU_TBASE_CPP
 #define SJTU_TBASE_CPP
 
-template<class D, class T, class DA, class TA, class M>
-TBase<D, T, DA, TA, M>::TBase() {}
+template<class T, class A, class M>
+TBase<T, A, M>::~TBase() {}
 
-template<class D, class T, class DA, class TA, class M>
-TBase<D, T, DA, TA, M>::~TBase() {}
+template<class T, class A, class M>
+TBase<T, A, M>::TBase() {}
 
 #endif
 

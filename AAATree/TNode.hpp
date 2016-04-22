@@ -5,17 +5,32 @@
 
 namespace sjtu{
 
-template<class D, class T, class DA, class TA, class M>
-class TNode : TBase<D, T, DA, TA, M>{
+template<class T, class A, class M>
+class TNode{
 protected:
-	D data;
+	T data;
 	size_t size;
 	TNode *child[2], *father;
+
+	static A add;
+	static M mult;
+
+public:
+	TNode();
+	virtual ~TNode();
 
 	virtual void pushdown() = 0;
 	virtual void update() = 0;
 
 };
+
+template<class T, class A, class M>
+A TNode<T, A, M>::add;
+
+template<class T, class A, class M>
+M TNode<T, A, M>::mult;
+
+#include "source/TNode.cpp"
 
 }
 

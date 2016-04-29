@@ -1,0 +1,12 @@
+#ifndef SJTU_FOREST
+#define SJTU_FOREST
+
+#include "TBase.hpp"
+#include "TNode.hpp"
+#include "AuxNode.hpp"
+#include "AuxTree.hpp"
+#include "LCTNode.hpp"
+#include "LCTree.hpp"
+#include "Forest.hpp"
+
+#endif
